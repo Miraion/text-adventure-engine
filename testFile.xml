@@ -1,0 +1,36 @@
+# This is a comment
+
+<title>Test Story</title>
+
+<settings>
+	<text_delay>3</text_delay>
+	<display_synopsis>true</display_synopsis>
+	<synopsis_text_delay>false</synopsis_text_delay>
+</settings>
+
+<synopsis>
+	A simple test story.<ln/><ln/>
+	Nothing too complex but it outlines<ln/>
+	how the program works, unitilizing<ln/>
+	all it's features.
+</synopsis>
+
+<start>
+	Hello World<br/>
+	What's up?
+	<1>Hey</1>
+	<2>How are you?</2>
+</start>
+
+<1>Hey!</1>
+
+<2>
+	I'm doing just fine<br/>
+	How are you?
+	<2:1>I'm good.</2:1>
+	<2:2>Not too good.</2:2>
+</2>
+
+<2:1>Thats great!</2:1>
+
+<2:2>That's too bad.</2:2>

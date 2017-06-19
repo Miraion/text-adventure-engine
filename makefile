@@ -1,0 +1,1 @@
+CPPFLAGS = -std=c++14 -Wall -Wextra -Wno-sign-compare -Wnon-virtual-dtor
