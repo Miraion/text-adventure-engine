@@ -12,6 +12,10 @@ namespace terminal {
 		cout << "\u001B" + cmd;
 	}
 
+	string esc_char (string const &cmd) {
+		return "\u001B" + cmd;
+	}
+
 	void cursor_pos (int row, int col) {
 		esc("[" + to_string(row) + ";" + to_string(col) + "H");
 	}

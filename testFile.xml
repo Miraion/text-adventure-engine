@@ -3,20 +3,20 @@
 <title>Test Story</title>
 
 <settings>
-	<text_delay>3</text_delay>
+	<text_delay>5</text_delay>
 	<display_synopsis>true</display_synopsis>
 	<synopsis_text_delay>false</synopsis_text_delay>
 </settings>
 
 <synopsis>
-	A simple test story.<ln/><ln/>
-	Nothing too complex, but it outlines<ln/>
-	how the program works.
+	A simple <c = red>test</c> story.<ln/><ln/>
+	Nothing <b>too</b> complex, but it outlines<ln/>
+	<u>how the program works.</u>
 </synopsis>
 
 <start>
-	Hello World<br/>
-	What's up?
+	<c = blu>Hello World</c><br/>
+	<c = grn>What's up?</c>
 	<1>Hey</1>
 	<2>How are you?</2>
 </start>

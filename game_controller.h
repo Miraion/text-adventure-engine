@@ -60,6 +60,8 @@ private:
 		return currentTag.children[input - 1].name;
 	}
 
+	// Bug where ansii formated text takes longer to print
+	// Find a way to omit those characters from the time delay.
 	void print_line (string const &text) {
 		if (settings::text_delay != 0) {
 			chrono::nanoseconds delay_time (settings::text_delay * 10000000);

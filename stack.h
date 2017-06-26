@@ -105,6 +105,12 @@ public:
 		return str;
 	}
 
+	void push_string (string const &s) {
+		for (int i = s.length() - 1; i >= 0; i--) {
+			push(s[i]);
+		}
+	}
+
 };
 
 #endif
